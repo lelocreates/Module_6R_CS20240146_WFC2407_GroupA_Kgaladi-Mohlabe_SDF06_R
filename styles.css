@@ -64,8 +64,8 @@ header {
 .profile-user-settings {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
 }
 
 .profile-user-name {
