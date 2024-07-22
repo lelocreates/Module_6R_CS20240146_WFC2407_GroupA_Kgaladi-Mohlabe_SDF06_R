@@ -53,17 +53,16 @@ header {
 .profile-image {
     width: 150px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 70%;
     overflow: hidden;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .profile-image img {
     width: 100%;
     height: 100%;
-    border: #262626;
-    border-radius: 10px;
-    object-fit: contain;
+    border: solid #262626;
+    border-radius: 100px;
 }
 .profile-items {
     display: flex;
@@ -98,8 +97,8 @@ header {
 .profile-settings-btn {
     background: none;
     color: var(--textcolor);
-    margin-right: 25px;
-    border: none;
+    margin-right: 50px;
+    border: 1px solid black;
 }
 
 .profile-stats {
@@ -107,10 +106,13 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 20px;
+    font-size: 13px;
+    margin-left: 5px;
     
 }
 .profile-stats li {
     display: inline;
+    margin-right: 40px;
 }
 
 .profile-stats ul {
@@ -119,7 +121,7 @@ header {
 
 .profile-stat-count {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 13px;
     margin-right: 1px;
 }
 
@@ -139,9 +141,17 @@ header {
     margin-top: 5px;
 }
 
+.gallery-image { 
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
 .gallery-item {
     position: relative;
     cursor: pointer;
+
 }
 
 .gallery-item-type,
